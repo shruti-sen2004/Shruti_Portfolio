@@ -1,7 +1,7 @@
 # About
 This is my personal portfolio webpage. 
 
-#Purpose
+# Purpose
 This project is done under the CodeClause Web development internship. 
 
-#Website Video Demo
+# Website Video Demo

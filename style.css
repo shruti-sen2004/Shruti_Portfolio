@@ -79,6 +79,22 @@ li{
     color: var(--body-bg-color);
 }
 
+.dark-theme .contact-form input, .contact-form textarea{
+    color: var(--body-bg-color);
+}
+
+.dark-theme .container-right p {
+    color: var(--body-bg-color)
+}
+
+.dark-theme ::placeholder{
+    color: var(--body-bg-color)
+}
+
+.dark-theme .edu-list .item, .dark-theme .bars .info{
+    color: var(--first-color)
+}
+
 /*=======Scroll Bar========*/
 ::-webkit-scrollbar{
     width: 10px;

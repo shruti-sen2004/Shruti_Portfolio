@@ -60,9 +60,24 @@ li{
     list-style: none;
 }
 
+/*=======Dark Theme========*/
+.dark-theme{
+    background: var(--first-color);
+    color: var(--body-bg-color);
 
+}
 
+.dark-theme .nav-items a{
+    color: var(--body-bg-color);
+}
 
+.dark-theme .nav-bar .logo{
+    color: var(--body-bg-color);
+}
+
+.dark-theme .home .scroll-down{
+    color: var(--body-bg-color);
+}
 
 /*=======Scroll Bar========*/
 ::-webkit-scrollbar{
@@ -129,6 +144,11 @@ header.sticky .nav-bar{
 
 .nav-items a:hover{
     color: var(--second-color);
+}
+
+#icon{
+    width: 30px;
+    cursor: pointer;
 }
 
 /*=============HOME SECTION=============*/

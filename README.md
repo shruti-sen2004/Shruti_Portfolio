@@ -12,5 +12,6 @@ https://github.com/shruti-sen2004/Shruti_Portfolio/assets/115914670/3d56cdbb-18c
 - Js
 
 # Future Ideas
--scrol up button
+- scroll up button
+- updated resume
 

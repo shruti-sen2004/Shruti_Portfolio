@@ -1,11 +1,17 @@
 # About
-This is my personal portfolio webpage. 
+This is my personal portfolio webpage
 
-# Purpose
-This project is done under the CodeClause Web development internship. 
 
 # Website Video Demo
 
+https://github.com/shruti-sen2004/Shruti_Portfolio/assets/115914670/3d56cdbb-18c4-4026-8135-7437e1af662e
 
-https://github.com/shruti-sen2004/CodeClause_Shruti_Portfolio/assets/115914670/507e8512-d161-42db-a6c6-48394b5f9544
+# Code stack 
+- HTML
+- CSS
+- Js
+
+# Future Ideas
+- scroll up button
+- updated resume
 

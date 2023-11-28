@@ -1,5 +1,5 @@
 # About
-This is my personal portfolio webpage
+This is my personal portfolio webpage.
 
 
 # Website Video Demo
@@ -13,5 +13,4 @@ https://github.com/shruti-sen2004/Shruti_Portfolio/assets/115914670/3d56cdbb-18c
 
 # Future Ideas
 - scroll up button
-- updated resume
 

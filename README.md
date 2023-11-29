@@ -11,6 +11,5 @@ https://github.com/shruti-sen2004/Shruti_Portfolio/assets/115914670/3d56cdbb-18c
 - CSS
 - Js
 
-# Future Ideas
-- scroll up button
+
 

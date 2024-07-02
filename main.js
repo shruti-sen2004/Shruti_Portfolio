@@ -14,3 +14,27 @@ icon.onclick = function(){
         icon.src = "images/moon.png";
     }
 }
+
+//PROJECTS SECTION MODAL
+const projectModals = document.querySelectorAll(".project-model");
+const imgCards = document.querySelectorAll(".img-card");
+const projectcloseBtns = document.querySelectorAll(".project-close-btn");
+
+var projectModal = function(modalclick){
+    projectModals[modalclick].classList.add("active");
+}
+
+imgCards.forEach((imgCard, index) => {
+    imgCard.addEventListener("click", () => {
+        projectModal(index);
+    });
+});
+
+projectcloseBtns.forEach((closeBtn) => {
+    closeBtn.addEventListener("click", (event) => {
+        event.stopPropagation(); 
+        projectModals.forEach((projectModalView) => {
+            projectModalView.classList.remove("active");
+        });
+    });
+});

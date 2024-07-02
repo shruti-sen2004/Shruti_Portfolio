@@ -521,6 +521,134 @@ header.sticky .nav-bar{
     width: 85%;
 }
 
+/* PROJECTS SECTION */
+.projects .container .content{
+    width: 100%;
+}
+
+.projects-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    max-width: 100%;
+    gap: 35px;
+    margin: 0 auto;
+}
+
+.projects-list .img-card{
+    position:relative;
+    max-width: 100%;
+    height: 400px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: var(--box-shadow);
+    cursor: pointer;
+}
+
+.projects-list .img-card .overlay{
+    transition: 1s ease;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.projects-list .img-card:hover .overlay{
+    z-index: 777;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin-top: 0px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.projects-list .img-card .info{
+    z-index: 777;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 20px;
+    color: var(--second-color);
+    transform: translateY(20px);
+    opacity: 0;
+    transition: .5s ease;
+}
+
+.projects-list .img-card:hover .info{
+    transform: translateY(0);
+    opacity: 1;
+}
+
+.projects-list .img-card .info h3{
+    font-size: 1.5em;
+}
+
+.projects-list .img-card .info span{
+    font-size: 1.2em;
+}
+
+.projects-list .img-card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: .5s ease;
+
+}
+
+.project-model{
+    z-index: 999999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: var(--transparent-colour-01);
+    backdrop-filter: blur(20px);
+    visibility: hidden;
+    opacity: 0;
+    transition: .3s ease;
+} 
+
+.project-model.active{
+    visibility: visible;
+    opacity: 1;
+
+}
+
+.project-model-body{
+    position: relative;
+    max-width: 600px;
+    margin: 20px;
+    padding: 40px;
+    background: var(--model-bg-colour);
+    box-shadow: var(--box-shadow);
+    border-radius: 10px;
+    transform: translateY(-50px);
+    transition: .5s ease;
+}
+
+.project-model.active .project-model-body{
+    transform: translateY(0);
+}
+
+.project-close-btn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.project-model-body h3{
+    font-size: 1.5em;
+}
+
+.project-model-body img{
+    width: 100%;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+
+
+
 /*===========Contact section===========*/
 .contact .container .content{
     display: flex;

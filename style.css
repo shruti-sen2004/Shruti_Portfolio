@@ -60,6 +60,13 @@ li{
     list-style: none;
 }
 
+h1{
+    background: linear-gradient(to top, transparent 0%, black 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    opacity: .9;
+}
+
 /*=======Dark Theme========*/
 .dark-theme{
     background: var(--first-color);
@@ -69,6 +76,13 @@ li{
 
 .dark-theme .nav-items a{
     color: var(--body-bg-color);
+}
+
+.dark-theme h1{
+    background: linear-gradient(to top, transparent 0%, white 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    opacity: .2;
 }
 
 .dark-theme .nav-bar .logo{
@@ -109,6 +123,8 @@ li{
 ::-webkit-scrollbar-thumb:hover{
     background: var(--scroll-thum-hover-color);
 }
+
+
 /*======Header=======*/
 header{
     z-index: 99999;
@@ -294,7 +310,6 @@ header.sticky .nav-bar{
     font-size: 4.5em;
     font-weight: 800;
     margin-bottom: 2rem;
-    background: linear-gradient(to top, tranparent 0%, var(--first-color) 70%);
     --webkit-background-clip: text;
     --webkit-text-fill-color: transparent;
     opacity: .1;

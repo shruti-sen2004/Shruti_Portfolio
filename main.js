@@ -4,14 +4,18 @@ window.addEventListener("scroll",function(){
     header.classList.toggle("sticky", window.scrollY > 0);
 });
 
+//DARK THEME TOGGLE
 var icon = document.getElementById("icon");
+var logo = document.getElementsByClassName("logo")[0];
 icon.onclick = function(){
     document.body.classList.toggle("dark-theme");
     
     if(document.body.classList.contains("dark-theme")){
         icon.src = "images/sun.png";
+        logo.src = "images/logo-dark.png";
     }else{
         icon.src = "images/moon.png";
+        logo.src = "images/logo-light.png";
     }
 }
 

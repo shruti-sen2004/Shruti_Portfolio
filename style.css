@@ -86,7 +86,7 @@ h1{
 }
 
 .dark-theme .nav-bar .logo{
-    color: var(--body-bg-color);
+    margin-top:10px;
 }
 
 .dark-theme .home .scroll-down{
@@ -155,13 +155,18 @@ header.sticky{
 }
 
 header.sticky .nav-bar{
-    height: calc(2.5rem + 1rem);
+    height: calc(2.5rem + 3rem);
 }
 
 .nav-bar .logo{
     color: var(--first-color);
     font-size: 1.3cm;
     font-weight: 600;
+}
+
+.nav-bar img{
+    width: 150px;
+    cursor: pointer;
 }
 
 .nav-items a{
@@ -761,12 +766,8 @@ footer a{
     max-width: 1150px;
 }
 
-.footer-container .about h2{
-    font-size: 3em;
-    font-weight: 600;
-    background: linear-gradient(to top, transparent 0%, #fff 50%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+.footer-container .about img{
+    width: 250px;
     opacity: .8;
 }
 

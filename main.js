@@ -63,8 +63,25 @@ ScrollReveal().reveal('.skills-description, .contact-card, .contact-left h2', {d
 ScrollReveal().reveal('.education, .projects .img-card', {delay: 800, origin: 'bottom' , interval:200});
 ScrollReveal().reveal('.footer-container .group', {delay: 500, origin: 'top'});
 
+//RESPONSIVE NAVIGATION BAR
+const menuBtn = document.querySelector(".nav-menu-btn");
+const closeBtn = document.querySelector(".nav-close-btn");
+const navMenu = document.querySelector(".navigation");
+const navItems = document.querySelectorAll(".nav-items a");
 
+menuBtn.addEventListener("click", () => {
+    navMenu.classList.add("active");
+});
 
+closeBtn.addEventListener("click", () => {
+    navMenu.classList.remove("active");
+});
+
+navItems.forEach((navItem) => {
+    navItem.addEventListener("click", () => {
+        navMenu.classList.remove("active");
+    });
+});
 
 
 

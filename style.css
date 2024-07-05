@@ -5,7 +5,6 @@
     --first-color: #0e2431;
     --second-color: #6a59d1;
     --third-color: #777;
-    --forth-color: #1a3442;
 
     /*===========Hover colours==========*/
     --hover-color: #614fd0;
@@ -75,14 +74,12 @@ h1{
 
 }
 
-.dark-theme .nav-items {
-    background: var(--forth-color);
-}
 
 .dark-theme .nav-menu-btn,.dark-theme .nav-close-btn{
     background-color: #fff;
     border-radius: 100%;  
 }
+
 .dark-theme .nav-items a{
     color: var(--body-bg-color);
 }
@@ -116,6 +113,10 @@ h1{
 
 .dark-theme .edu-list .item, .dark-theme .bars .info{
     color: var(--first-color)
+}
+
+@media (max-width: 730px) {
+    
 }
 
 /*=======Scroll Bar========*/
@@ -1016,6 +1017,10 @@ footer a{
         background: rgba(255, 255, 255, 0.1);
         margin: 10px 0 22px;
     }
+
+    .dark-theme .nav-items {
+        background: #1a3442;
+    }
 }
 
 @media screen and (max-width: 730px){
@@ -1052,4 +1057,9 @@ footer a{
     .media-icons{
         margin-bottom: 80px;
     }
+
+    .dark-theme .nav-items {
+        background: #1a3442;
+    }
+
 }

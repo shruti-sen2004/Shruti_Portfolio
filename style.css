@@ -914,7 +914,7 @@ footer a{
 
     .nav-close-btn{
         position: absolute;
-        background: url(/images/close-icon.png)no-repeat;
+        background: url(images/close-icon.png)no-repeat;
         background-size: 12px;
         background-position: center;
         width: 40px;
@@ -926,7 +926,7 @@ footer a{
     }
 
     .nav-menu-btn{
-        background: url(/images/nav-menu.png)no-repeat;
+        background: url(images/nav-menu.png)no-repeat;
         background-size: 30px;
         background-position: center;
         width: 40px;

@@ -5,6 +5,7 @@
     --first-color: #0e2431;
     --second-color: #6a59d1;
     --third-color: #777;
+    --forth-color: #1a3442;
 
     /*===========Hover colours==========*/
     --hover-color: #614fd0;
@@ -74,10 +75,14 @@ h1{
 
 }
 
-.dark-theme .nav-menu-btn{
-    color: var(--color-filter);
+.dark-theme .nav-items {
+    background: var(--forth-color);
 }
 
+.dark-theme .nav-menu-btn,.dark-theme .nav-close-btn{
+    background-color: #fff;
+    border-radius: 100%;  
+}
 .dark-theme .nav-items a{
     color: var(--body-bg-color);
 }

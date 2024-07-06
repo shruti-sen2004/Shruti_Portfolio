@@ -115,10 +115,6 @@ h1{
     color: var(--first-color)
 }
 
-@media (max-width: 730px) {
-    
-}
-
 /*=======Scroll Bar========*/
 ::-webkit-scrollbar{
     width: 10px;
@@ -575,7 +571,6 @@ header.sticky .nav-bar{
 .projects-list .img-card .overlay{
     transition: 1s ease;
     width: 100%;
-    margin-top: 100px;
 }
 
 .projects-list .img-card:hover .overlay{
@@ -593,7 +588,7 @@ header.sticky .nav-bar{
     bottom: 0;
     left: 0;
     margin: 20px;
-    color: var(--second-color);
+    color: var(--modal-bg-colour);
     transform: translateY(20px);
     opacity: 0;
     transition: .5s ease;
@@ -634,22 +629,22 @@ header.sticky .nav-bar{
     transition: .3s ease;
 } 
 
-.project-model.active{
-    visibility: visible;
-    opacity: 1;
-
-}
-
 .project-model-body{
     position: relative;
     max-width: 600px;
     margin: 20px;
     padding: 40px;
-    background: var(--model-bg-colour);
+    background: var(--modal-bg-colour);
     box-shadow: var(--box-shadow);
     border-radius: 10px;
     transform: translateY(-50px);
     transition: .5s ease;
+}
+
+.project-model.active{
+    visibility: visible;
+    opacity: 1;
+
 }
 
 .project-model.active .project-model-body{
@@ -673,8 +668,6 @@ header.sticky .nav-bar{
     border-radius: 10px;
     margin: 20px 0;
 }
-
-
 
 
 /*===========Contact section===========*/
@@ -872,7 +865,7 @@ footer a{
   }
 
   /* =============Media Queries =====================*/
-@media screen and (max-width: 1070px){
+ @media screen and (max-width: 1070px){
     /* ===NAV BAR=== */
     .navigation{
         position: fixed;
@@ -953,10 +946,10 @@ footer a{
         row-gap:20px;
     }
 
-    .about-img img{
+    /* /* .about-img img{
         min-width: 0;
         width:100%;
-    }
+    } */
 
     .about-info{
         min-width: 0;
@@ -1018,10 +1011,10 @@ footer a{
         margin: 10px 0 22px;
     }
 
-    .dark-theme .nav-items {
+    .dark-theme .nav-items, .project-model-body {
         background: #1a3442;
     }
-}
+} 
 
 @media screen and (max-width: 730px){
     body{
@@ -1058,8 +1051,8 @@ footer a{
         margin-bottom: 80px;
     }
 
-    .dark-theme .nav-items {
+    .dark-theme .nav-items, .project-model-body {
         background: #1a3442;
     }
 
-}
+} 

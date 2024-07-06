@@ -115,6 +115,10 @@ h1{
     color: var(--first-color)
 }
 
+.dark-theme .project-model-body{
+    background: #1a3442;
+}
+
 /*=======Scroll Bar========*/
 ::-webkit-scrollbar{
     width: 10px;
@@ -1011,7 +1015,7 @@ footer a{
         margin: 10px 0 22px;
     }
 
-    .dark-theme .nav-items, .project-model-body {
+    .dark-theme .nav-item{
         background: #1a3442;
     }
 } 
@@ -1051,8 +1055,7 @@ footer a{
         margin-bottom: 80px;
     }
 
-    .dark-theme .nav-items, .project-model-body {
+    .dark-theme .nav-item{
         background: #1a3442;
     }
-
 } 

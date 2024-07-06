@@ -7,15 +7,18 @@ window.addEventListener("scroll",function(){
 //DARK THEME TOGGLE
 var icon = document.getElementById("icon");
 var logo = document.getElementsByClassName("logo")[0];
+var image = document.getElementById("image");
 icon.onclick = function(){
     document.body.classList.toggle("dark-theme");
     
     if(document.body.classList.contains("dark-theme")){
         icon.src = "images/sun.png";
         logo.src = "images/logo-dark.png";
+        image.src = "images/portfolio-pic-dark.png";
     }else{
         icon.src = "images/moon.png";
         logo.src = "images/logo-light.png";
+        image.src = "images/profile-pic.png";
     }
 }
 

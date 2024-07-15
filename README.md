@@ -4,7 +4,7 @@ This is my personal portfolio webpage.
 
 # Website Video Demo
 
-To be uploaded soon....
+Will be added soon
 
 
 

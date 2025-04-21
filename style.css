@@ -196,6 +196,7 @@ header.sticky .nav-bar{
 #icon{
     width: 30px;
     cursor: pointer;
+    margin-bottom: -7px;
 }
 
 .nav-menu-btn{
@@ -941,6 +942,10 @@ footer a{
         display: block;
     }
 
+    #icon {
+        margin-top: 15px;
+    }
+
     /* =========HOME SECTION======= */
     .home .container .content{
         font-size: 0.85rem;
@@ -1036,6 +1041,10 @@ footer a{
 @media screen and (max-width: 730px){
     body{
         margin: 5rem 0 0 0 ;
+    }
+
+    #icon {
+        margin-top: 15px;
     }
 
     .section-title-01{

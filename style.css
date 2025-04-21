@@ -489,6 +489,11 @@ header.sticky .nav-bar{
     font-weight: 500;
 }
 
+.edu-list .item i{
+    color: var(--first-color);
+    font-size: 1 em;
+    margin-right: 5px;
+}
 .bars{
     background: var(--card-bg-color);
     box-shadow: var(--box-shadow);

@@ -343,11 +343,22 @@ header.sticky .nav-bar{
 .section-title-02:before{
     content: '';
     position: absolute;
-    width: 100px;
     height: 5px;
-    left: 5px;
     bottom: 0;
     background: var(--second-color);
+}
+
+.about-heading::before {
+    width: 190px;
+}
+.skills-heading::before {
+    width: 400px;
+}
+.projects-heading::before {
+    width: 160px;
+}
+.contact-heading::before {
+    width: 160px;
 }
 
 .container{

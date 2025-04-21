@@ -1051,9 +1051,19 @@ footer a{
         transform: translateY(-65px);
     }
 
-    .section-title-02 skills-section::before{
-        width:300px;
+    .about-heading::before {
+        width: 150px;
     }
+    .skills-heading::before {
+        width: 320px;
+    }
+    .projects-heading::before {
+        width: 130px;
+    }
+    .contact-heading::before {
+        width: 130px;
+    }
+    
 
     .home .home-container{
         display: grid;  

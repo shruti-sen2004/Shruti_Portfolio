@@ -647,18 +647,21 @@ header.sticky .nav-bar{
     visibility: hidden;
     opacity: 0;
     transition: .3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 } 
 
 .project-model-body{
     position: relative;
     max-width: 600px;
-    margin: 20px;
     padding: 40px;
     background: var(--modal-bg-colour);
     box-shadow: var(--box-shadow);
     border-radius: 10px;
     transform: translateY(-50px);
     transition: .5s ease;
+    margin: 0;
 }
 
 .project-model.active{
@@ -1064,7 +1067,6 @@ footer a{
         width: 130px;
     }
     
-
     .home .home-container{
         display: grid;  
     }
@@ -1089,4 +1091,18 @@ footer a{
     .dark-theme .nav-items{
         background-color: #1a3442;
     }
+
+    .projects-list {
+        grid-template-columns: 1fr;
+        justify-items: center;
+      }
+    
+      .projects-list .img-card {
+        width: 90%;
+      }
+    
+      .project-model-body {
+        width: 90%;
+        padding: 20px;
+      }
 } 

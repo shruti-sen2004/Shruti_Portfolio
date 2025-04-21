@@ -523,7 +523,8 @@ header.sticky .nav-bar{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 120px; /* Equal height */
+    height: 120px; 
+    width: 100px;
     transition: transform 0.3s ease;
 }
 
@@ -975,6 +976,10 @@ footer a{
         grid-template-columns: repeat(3, 1fr);
     }
 
+    .skill-item {
+        width: 100%;
+    }
+
     /*========== CONTACT SECTION========= */
     .contact .content{
         flex-direction: column;
@@ -1099,4 +1104,7 @@ footer a{
         grid-template-columns: repeat(2, 1fr);
     }
 
+    .skill-item {
+        width: 100%;
+    }
 } 

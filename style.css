@@ -4,7 +4,8 @@
     /*===========Main theme colours==========*/
     --first-color: #0e2431;
     --second-color: #6a59d1;
-    --third-color: #777;
+    --third-color: #827d7d;
+    --forth-color: #a39d9d;
 
     /*===========Hover colours==========*/
     --hover-color: #614fd0;
@@ -95,8 +96,15 @@ h1{
     margin-top:10px;
 }
 
+.dark-theme .home-container .info p{
+    color: var(--forth-color);
+}
 .dark-theme .home .scroll-down{
     color: var(--body-bg-color);
+}
+
+.dark-theme .about-info .description p {
+    color: var(--forth-color);
 }
 
 .dark-theme .contact-form input, .contact-form textarea{

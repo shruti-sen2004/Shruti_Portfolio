@@ -1051,6 +1051,10 @@ footer a{
         transform: translateY(-65px);
     }
 
+    .section-title-02 skills-section::before{
+        width:300px;
+    }
+
     .home .home-container{
         display: grid;  
     }

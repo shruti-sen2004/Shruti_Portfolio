@@ -49,11 +49,12 @@ projectcloseBtns.forEach((closeBtn) => {
 //SCROLL REVEAL ANIMATION 
 //COMMON REVEAL OPTIONS TO CREATE REVEAL ANIMATIONS
 ScrollReveal({ 
-    reset: true,
-    distance: '60px',
-    duration: 2500,
-    delay: 100
+    reset: true,          
+    distance: '30px',      
+    duration: 1000,         
+    delay: 100             
 });
+
 
 ScrollReveal().reveal('.home .info h2, .section-title-01, .section-title-02', {delay: 500, origin: 'left'});
 ScrollReveal().reveal('.home .info h3, .home .info p, .about-info .btn', {delay: 600, origin: 'right'});

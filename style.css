@@ -505,65 +505,47 @@ header.sticky .nav-bar{
     font-size: 1 em;
     margin-right: 5px;
 }
-.bars{
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.skill-item {
     background: var(--card-bg-color);
+    border-radius: 8px;
     box-shadow: var(--box-shadow);
-    margin-bottom: 10px;
     padding: 20px;
-    border-radius: 6px;
-    transition: .3s ease;
-}
-
-.bars .info{
+    text-align: center;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    margin-bottom: 5px;
-    font-size: var(--small-font-size);
+    height: 120px; /* Equal height */
+    transition: transform 0.3s ease;
 }
 
-.bars .info span{
+.skill-item:hover {
+    transform: translateY(-5px);
+}
+
+.skill-item img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 8px;
+    object-fit: contain;
+}
+
+.skill-item span {
+    font-size: 0.9rem;
     font-weight: 500;
+    color: var(--first-color);
+    line-height: 1.2;
 }
 
-.bars .line{
-    position: relative;
-    width: 100%;
-    height: 7px;
-    background: #c5cadf;
-    border-radius: 2px;
-}
 
-.bars .line:before{
-    content: '';
-    position: absolute;
-    height: 100%;
-    top:0;
-    left: 0;
-    background: var(--second-color);
-    border-radius: 2px;
-    
-}
-
-.bars .html:before{
-    width: 70%;
-}
-
-.bars .css:before{
-    width: 65%;
-}
-
-.bars .javascript:before{
-    width: 45%;
-}
-
-.bars .python:before{
-    width: 90%;
-}
-
-.bars .cprog:before{
-    width: 85%;
-}
 
 /* PROJECTS SECTION */
 .projects .container .content{
@@ -988,6 +970,11 @@ footer a{
         justify-content: start;
     }
 
+    /*========== SKILLS SECTION============ */
+    .skills-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
     /*========== CONTACT SECTION========= */
     .contact .content{
         flex-direction: column;
@@ -1035,6 +1022,7 @@ footer a{
         margin: 10px 0 22px;
     }
 
+    /* ==========DARK THEME ====================*/
     .dark-theme .nav-items{
         background: #1a3442;
     }
@@ -1105,4 +1093,10 @@ footer a{
         width: 90%;
         padding: 20px;
       }
+
+    /*========== SKILLS SECTION============ */
+    .skills-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
 } 

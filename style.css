@@ -535,12 +535,14 @@ header.sticky .nav-bar{
     height: 120px; 
     width: 100px;
     transition: transform 0.3s ease;
+    border-bottom: 3px solid var(--second-color);
 }
 
 .skill-item:hover {
     transform: translateY(-5px);
+    /* box-shadow: 0px 0px 20px rgba(231, 227, 227, 0.912); */
+    /* box-shadow: 0px 0px 20px var(--second-color); */
 }
-
 .skill-item img {
     width: 40px;
     height: 40px;

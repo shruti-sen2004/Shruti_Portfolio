@@ -1,4 +1,4 @@
-# 💻 My Portfolio Website 
+# 💻 Shrufolio - *A canvas of my digital tales*
 
 Hey there! 👋  
 Welcome to the official repository of **My personal portfolio website** – built with love and lots of CSS magic! 🎨✨

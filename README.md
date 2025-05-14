@@ -38,7 +38,7 @@ Wanna see it on your own machine? Follow these steps:
 ### *In dark mode:*
 ![image](https://github.com/user-attachments/assets/19d0dc59-35f4-4673-af9d-b2cc5d8ef32a)
 
-Hop on the site and explore more yourself 🤭👉 [Portfolio Site](https://shruti-sen2004.github.io/Shruti_Portfolio) 
+Hop on the site and explore more yourself 🤭👉 [Portfolio Site](https://shruti-sen2004.github.io/Shrufolio) 
 
 *If you like this project, give it a ⭐– it keeps me motivated! 💖*
 

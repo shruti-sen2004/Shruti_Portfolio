@@ -27,7 +27,7 @@ Wanna see it on your own machine? Follow these steps:
 
 1. 🍴 Fork or clone this repo  
    ```bash
-   git clone https://github.com/shruti-sen2004/Shruti_Portfolio.git
+   git clone https://github.com/shruti-sen2004/Shrufolio.git
 2. 📂 Open the folder in your code editor
 3. 🌐 Open `index.html` in your browser
 4. Boom! 💥 You’ll see the site live
